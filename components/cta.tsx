@@ -3,10 +3,10 @@ import Stripes from "@/public/images/stripes-dark.svg";
 
 export default function Cta() {
   return (
-    <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="my-12 md:my-16">
+      <div className="mx-auto max-w-none">
         <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-gray-900"
+          className="relative overflow-hidden text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:bg-gray-900"
           data-aos="zoom-y-out"
         >
           {/* Glow */}
@@ -31,7 +31,7 @@ export default function Cta() {
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Create your next project with Simple
+              Kom igång med AnteckningsBanken
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
@@ -39,7 +39,7 @@ export default function Cta() {
                 href="#0"
               >
                 <span className="relative inline-flex items-center">
-                  Start Free Trial{" "}
+                  Börja nu{" "}
                   <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                     -&gt;
                   </span>
